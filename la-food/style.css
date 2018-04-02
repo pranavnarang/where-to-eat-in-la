@@ -1,0 +1,171 @@
+:root {
+    --dark_grey: #303030;
+}
+
+.food {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 130px;
+}
+
+.food h2 {
+    color: gold;
+    font-size: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.food .website .p {
+    font-weight: 100;
+}
+
+.food p {
+    color: var(--dark_grey);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.food .btn-info {
+    clear: both;
+    text-align: center;
+    padding: 2% 2%;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+hr {
+    border-color: var(--dark_grey);
+}
+
+.info h2 {
+    font-family: 'Oswald';
+    font-size: 50px;
+}
+
+.info p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: italic;
+}
+
+.info ul {
+    padding: 30px 110px;
+}
+
+.info li {
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+.bg-cheesecake {
+    background-image: linear-gradient(rgba(34, 193, 195, .2) 0%, rgba(253, 187, 45, .6)), url("https://www.thecheesecakefactory.com/assets/images/Menu-Import/CCF_ChocolateHazelnutCrunch.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-cpk {
+    background-image: linear-gradient(rgba(34, 193, 195, .2) 0%, rgba(253, 187, 45, .6)), url("https://www.cpk.com/Contents/Images/TheOriginalBBQChickenPizza_1200x630.jpg?20180130A");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-taco {
+    background-image: linear-gradient(rgba(34, 193, 195, .2) 0%, rgba(253, 187, 45, .6)), url("http://static.tumblr.com/7e8f1b37dd1d60a5fbb63c7722206c0f/copzm1v/cQznlvvrw/tumblr_static_dlxko2v0n8ggw8scooc4os884.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-cookie {
+    background-image: linear-gradient(rgba(34, 193, 195, .2) 0%, rgba(253, 187, 45, .6)), url("https://s-media-cache-ak0.pinimg.com/originals/e2/c6/09/e2c609bedbcdcc0f91a53281a0ca663f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-donut {
+    background-image: linear-gradient(rgba(34, 193, 195, .2) 0%, rgba(253, 187, 45, .6)), url("https://angelaishere.files.wordpress.com/2011/09/img_2451.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header {
+    font-size: 100px;
+    color: white;
+    font-family: 'Oswald';
+    opacity: 1;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.left {
+    margin-left: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .food {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    .food h2 {
+        font-size: 100px;
+    }
+    .food p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .food {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    .food h2 {
+        font-size: 80x;
+    }
+    .food p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 440px) {}
+
+@media (min-width: 500px) {}
+
+@media (max-width: 630px) {
+    .food {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    .food h2 {
+        font-size: 70px;
+    }
+    .food p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
